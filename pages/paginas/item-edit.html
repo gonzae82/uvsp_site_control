@@ -1,0 +1,52 @@
+<div class="page" data-name="item-edit">
+  <div class="navbar">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon f7-icons arrow-back">arrow_left</i>
+        </a>
+      </div>
+      <div class="title">SITE CONTROL</div>
+      <div class="right">
+        <a href="#" class="link">
+          <i class="icon f7-icons single-post-actions">ellipsis_circle_fill</i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!--INICIO Page Content-->
+  <div class="page-content">    
+    <h1 class="single-post-title">ITEM</h1>
+    <div class="section-title title-bottom-line">
+      Upload de Foto
+    </div> 
+    
+    <!-- Botão para upload de foto -->
+    <input type="file" id="fileInput" accept="image/*" capture="camera" style="display:none;" />
+    <a href="#" id="uploadButton" class="button button-fill color-green button-icon-left">
+      <i class="icon f7-icons">camera</i>
+      Tirar Foto / Upload
+    </a>
+
+    <!-- Preview da foto -->
+    <div id="previewArea">
+
+    <!-- Pré-visualização da foto -->
+    <img id="fotoPreview" src="" style="max-width: 100%; height: auto;" />
+  </div>
+
+  <!-- Botão de salvar foto (inicialmente oculto) -->
+  <button style="display:none;" type="submit" id="saveButton" class="button button-fill color-dark"><i class="icon f7-icons">file</i>Salvar</button>
+
+   <div class="item-foto">
+      
+  </div> 
+
+  <!-- Área para mostrar a foto pré-visualizada -->
+  <div id="previewArea"></div>
+
+
+  <!--FIM Page Content-->
+  </div>
+</div>
